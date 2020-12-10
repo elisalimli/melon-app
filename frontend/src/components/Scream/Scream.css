@@ -1,0 +1,42 @@
+.animationHeart,
+.heart {
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    width: 72px;
+    background-image: url('https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png');
+    background-repeat: no-repeat;
+    background-size: 2900%;
+    margin-top: 1px;
+    /* transform: translateX(10px); */
+
+}
+
+.animationHeart {
+    background-position: right;
+    animation: heart-burst .8s steps(28) 1;
+}
+
+.heart {
+    background-position: left;
+}
+
+.likesComments {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3.5px;
+    transform: translateX(-25px);
+}
+
+
+@keyframes heart-burst {
+    from {
+        background-position: left;
+    }
+
+    to {
+        background-position: right;
+    }
+}

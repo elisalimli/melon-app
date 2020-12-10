@@ -1,0 +1,52 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.appIcon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textFields {
+    display: flex;
+    flex-direction: column;
+}
+
+.textField {
+    color: red;
+    margin-top: 15px !important;
+}
+
+.submitButton {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 20px 0 5px 0;
+}
+
+.pageTitle {
+    text-align: center;
+}
+
+.customError {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 10px !important;
+    text-align: center;
+}
+
+.progress {
+    position: absolute;
+}
+
+.register-link {
+    color: #00BCD4;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
